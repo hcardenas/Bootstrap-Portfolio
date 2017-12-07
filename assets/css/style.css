@@ -1,0 +1,312 @@
+body {
+	background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/concrete-texture.png");
+	margin: 0px;
+	padding: 0px;
+}
+
+.bodypadding {
+	padding: 0px 0px 140px 0px;
+}
+
+.btn-h {
+	background-color: #4aaaa5;
+	color: white;
+}
+
+.ZHS {
+	color: white;
+	font-size: 30px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.ZHS:hover {
+	color: grey;
+}
+
+.SideBarSection {
+	background-color: #fff;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #ddd;
+	height: 180px;
+}
+
+.ConnectTitle {
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	border-style: solid;
+	border-width: 0px 0px 2px 0px;
+	border-color: #dddddd;
+	padding: 0px 0px 10px 0px;
+}
+
+.AboutMeSection {
+	background-color: #fff;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #ddd;
+	margin-bottom: 20px;
+}
+
+.AboutMeTitle {
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	border-style: solid;
+	border-width: 0px 0px 2px 0px;
+	border-color: #dddddd;
+	padding: 0px 0px 10px 0px;
+}
+
+.AboutMeImage {
+	padding: 0px 0px 20px 0px;
+}
+
+.footer {
+	clear: both;
+	background: #666666;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	border-style: solid;
+	border-color: #4aaaa5;
+	border-width: 8px 0px 0px 0px;
+	text-align: center;
+	padding: 20px;
+	margin-top: 20px;
+	color: #cccccc;
+}
+
+textarea#NameBox {
+	height: 30px;
+	border: 1px solid #dddddd;
+	padding: 5px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: black;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+#NameBox:focus {
+	color: black;
+}
+
+::-webkit-input-placeholder {
+  color: #dddddd;
+}
+
+textarea#EmailBox {
+	height: 30px;
+	border: 1px solid #dddddd;
+	padding: 5px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: black;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+#EmailBox:focus {
+	color: black;
+}
+
+textarea#MessageBox {
+	height: 300px;
+	border: 1px solid #dddddd;
+	padding: 5px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: black;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+#MessageBox:focus {
+	color: black;
+}
+
+.SubmitButton {
+    background-color: #4aaaa5;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+textarea {	
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;	
+    width: 100%;
+}
+
+.StockImage1Div {
+	position: relative;
+	margin-bottom: 20px;
+}
+
+.Hangman {
+	position: absolute;
+	bottom: 5px;
+	height: 25px;
+	width: 255px;
+	text-align: center;
+	color: #ffffff;
+	background: #4aaaa5;
+	padding: 3px;
+}
+
+.StockImage2Div {
+	position: relative;
+	margin-bottom: 20px;
+}
+
+.RPG {
+	position: absolute;
+	bottom: 5px;
+	height: 25px;
+	width: 255px;
+	text-align: center;
+	color: #ffffff;
+	background: #4aaaa5;
+	padding: 3px;
+}
+
+.StockImage3Div {
+	position: relative;
+	margin-bottom: 20px;
+}
+
+.Trivia {
+	position: absolute;
+	bottom: 5px;
+	height: 25px;
+	width: 255px;
+	text-align: center;
+	color: #ffffff;
+	background: #4aaaa5;
+	padding: 3px;
+}
+
+.StockImage4Div {
+	position: relative;
+	margin-bottom: 20px;
+}
+
+.Rutgers {
+	position: absolute;
+	bottom: 5px;
+	height: 25px;
+	width: 255px;
+	text-align: center;
+	color: #ffffff;
+	background: #4aaaa5;
+	padding: 3px;
+}
+
+.StockImage5Div {
+	position: relative;
+	margin-bottom: 20px;
+}
+
+.RPS {
+	position: absolute;
+	bottom: 5px;
+	height: 25px;
+	width: 255px;
+	text-align: center;
+	color: #ffffff;
+	background: #4aaaa5;
+	padding: 3px;
+}
+
+.container-fluid {
+	margin: 0px;
+	padding: 0px;
+}
+
+@media screen and (max-width: 1000px) {
+	.SideBarSection {
+		background-color: #fff;
+		border-style: solid;
+		border-width: 2px;
+		border-color: #ddd;
+		height: 220px;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	.stock1 {
+		width: 100%;
+	}
+	.Hangman {
+		position: absolute;
+		bottom: 5px;
+		height: 25px;
+		width: 100%;
+		text-align: center;
+		color: #ffffff;
+		background: #4aaaa5;
+		padding: 3px;
+	}
+
+	.stock2 {
+		width: 100%;
+	}
+
+	.RPG {
+		position: absolute;
+		bottom: 5px;
+		height: 25px;
+		width: 100%;
+		text-align: center;
+		color: #ffffff;
+		background: #4aaaa5;
+		padding: 3px;
+	}
+
+	.stock3 {
+		width: 100%;
+	}
+
+	.Trivia {
+		position: absolute;
+		bottom: 5px;
+		height: 25px;
+		width: 100%;
+		text-align: center;
+		color: #ffffff;
+		background: #4aaaa5;
+		padding: 3px;
+	}
+
+	.stock4 {
+		width: 100%;
+	}
+
+	.Rutgers {
+		position: absolute;
+		bottom: 5px;
+		height: 25px;
+		width: 100%;
+		text-align: center;
+		color: #ffffff;
+		background: #4aaaa5;
+		padding: 3px;
+	}
+
+	.stock5 {
+		width: 100%;
+	}
+
+	.RPS {
+		position: absolute;
+		bottom: 5px;
+		height: 25px;
+		width: 100%;
+		text-align: center;
+		color: #ffffff;
+		background: #4aaaa5;
+		padding: 3px;
+	}
+}
